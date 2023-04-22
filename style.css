@@ -286,12 +286,15 @@ section{
     font-family: sans-serif;
 }
 
+
 .about .row{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
+
+
 
 .about .row .box{
     flex:1 1 40rem;
