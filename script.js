@@ -46,3 +46,16 @@ $(document).ready(function(){
   });
 
 });
+
+function envoyerEmail() {
+  var email = document.getElementById("email").value; // Récupère la valeur de l'adresse e-mail depuis le champ de saisie
+  var message = document.getElementById("message").value; // Récupère la valeur du message depuis le champ de saisie
+
+  // Envoie l'e-mail à mon adresse
+  // Remplacez 'mon@email.com' par mon adresse e-mail réelle
+  window.location.href = `colinorelus1998@gmail.com${encodeURIComponent(message)}`;
+
+  // Réinitialise les champs du formulaire
+  document.getElementById("email").value = "root";
+  document.getElementById("message").value = "root";
+}
