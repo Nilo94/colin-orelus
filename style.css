@@ -279,7 +279,7 @@ section{
 
 .about .row{
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -328,35 +328,35 @@ section{
 }
 
 .about .row .box:nth-child(1) .progress:nth-child(2) .bar span{
-    width: 95%;
+    width: 20%;
 }
 
 .about .row .box:nth-child(1) .progress:nth-child(3) .bar span{
-    width: 80%;
+    width: 20%;
 }
 
 .about .row .box:nth-child(1) .progress:nth-child(4) .bar span{
-    width: 65%;
+    width: 15%;
 }
 
 .about .row .box:nth-child(1) .progress:nth-child(5) .bar span{
-    width: 75%;
+    width: 5%;
 }
 
 .about .row .box:nth-child(2) .progress:nth-child(2) .bar span{
-    width: 98%;
+    width: 2%;
 }
 
 .about .row .box:nth-child(2) .progress:nth-child(3) .bar span{
-    width: 67%;
+    width: 2%;
 }
 
 .about .row .box:nth-child(2) .progress:nth-child(4) .bar span{
-    width: 75%;
+    width: 2%;
 }
 
 .about .row .box:nth-child(2) .progress:nth-child(5) .bar span{
-    width: 60%;
+    width: 2%;
 }
 
 .about .row .box .exp-box{
